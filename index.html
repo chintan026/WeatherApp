@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Event Click LatLng</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    
+    <div id="map"></div>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key={Your google maps api key}&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+  <br>
+
+  <div class="contain">
+  <div class="box">
+    <div class="measure">Temperature</div>
+    <div id="temp"></div>
+  </div>
+  <div class="box">
+    <div class="measure">Pressure</div>
+    <div id="pressure"></div>
+  </div>
+  <div class="box">
+    <div class="measure">Wind</div>
+    <div id="windspeed"></div>
+  </div>
+  <div class="box">
+    <div class="measure">Humidity</div>
+    <div id="humidity"></div>
+  </div>
+  <div class="box">
+    <div class="measure">Clouds</div>
+    <div id="clouds"></div>
+  </div>
+  
+</div>
+
+<div class="weather">
+  <img src="" id = "img" alt="">
+  <p id="desc"></p>
+</div>
+    
+<!-- http://openweathermap.org/img/wn/10d@2x.png -->
+
+
+   
+
+  
+  </body>
+</html>
